@@ -1,0 +1,41 @@
+/* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+.controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+    width: 100%;
+}
+
+button, input[type="range"] {
+    margin: 5px;
+    flex: 1 1 auto;
+}
+
+input[type="range"] {
+    width: 100%;
+}
