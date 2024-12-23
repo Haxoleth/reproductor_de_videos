@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproductor de Videos Personal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="video-container">
+        <video id="videoPlayer" controls>
+            <source src="tu_video.mp4" type="video/mp4">
+            Tu navegador no soporta el elemento de video.
+        </video>
+        <div class="controls">
+            <button id="playPauseBtn">Play/Pause</button>
+            <button id="stopBtn">Stop</button>
+            <button id="rewindBtn"><< 10s</button>
+            <button id="forwardBtn">10s >></button>
+            <button id="fullScreenBtn">Fullscreen</button>
+            <input type="range" id="seekBar" value="0" max="100">
+            <input type="range" id="volumeBar" value="100" max="100">
+            <button id="zoomInBtn">Zoom In</button>
+            <button id="zoomOutBtn">Zoom Out</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
